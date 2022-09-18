@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+.banner {
+	background-image: url("usintroduction.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	width: 1000px;
+height: 500px;
+}
+
+header {font-size: 50px;
+  color: darkslategray;
+  background-color: white;
+  padding: 10px;
+  margin-right: auto;
+  border: 3px solid black;
+  text-align: right;
+  text-decoration: underline overline;
+}
+body{background-color: azure;
+font-size: 16pt;
+margin: 60px ;}
+
+p{color: black;}
+
+ul[class] {color: olive;}
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px 2em;}
+
+.menu :.first-child {
+    align-self: center;
+}
+
+ul {
+  overflow: auto;
+  list-style-type: square;
+  list-style-position: outside;
+  display: grid;
+  width: auto;
+  grid-template-columns: 180px 180px 180px 180px 180px;
+  align-items: start;
+  justify-content: space-between;
+  gap: 10px 2em;
+}
+
+ul:.first-child {
+    align-self: center;
+}
+
+li {
+  width: auto;
+  border:3px solid cadetblue;
+  text-align: center;
+}
+
+a:link, a:visited {
+  background-color: cadetblue;
+  color: white;
+  padding: 7px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: steelblue;
+}
+#main-heading {color: darkslategrey;
+	border: 2px solid dimgrey;
+	text-align: center;
+}
+
+h2{text-align: center;
+color: sienna;}
+
+img{border: 1px solid gainsboro;
+  border-radius: 4px;
+  padding: 5px;
+  border-radius: 50%;
+display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
+h3 {color:cornsilk;
+	text-align:center;
+background-color: indianred;}
+
+h4{color: brown;
+font-family: "Courier New";}
+
+iframe{float:inherit;}
+
+#deadline{text-decoration: underline;}
+
+h5{color: olive;
+	text-decoration: underline overline;
+	font-family: "Papyrus";
+}
+
+div[class] {color: olive;}
+
+article[id] {background-color: lightcyan;}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px sienna;
+}
+
+.menu {
+  width: 75%;
+}
+
+.logo {
+  width: 25%;
+}
